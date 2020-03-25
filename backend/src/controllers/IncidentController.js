@@ -54,6 +54,6 @@ module.exports = {
       .where("id", id)
       .delete();
 
-    return response.statu(204).send();
+    return res.status(204).send();
   }
 };
